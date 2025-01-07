@@ -31,7 +31,7 @@ const FeatureToggles = ({
         <div key={toggle.label} className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <span className="flex gap-2 text-sm font-medium">
-              Show
+              显示
               <Badge variant={toggle.badgeVariant} size="xq">
                 {toggle.label}
               </Badge>
