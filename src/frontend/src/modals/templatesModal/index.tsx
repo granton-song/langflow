@@ -25,20 +25,20 @@ export default function TemplatesModal({
   // Define categories and their items
   const categories: Category[] = [
     {
-      title: "Templates",
+      title: "模版",
       items: [
-        { title: "Get started", icon: "SquarePlay", id: "get-started" },
-        { title: "All templates", icon: "LayoutPanelTop", id: "all-templates" },
+        { title: "开始", icon: "SquarePlay", id: "get-started" },
+        { title: "所有模版", icon: "LayoutPanelTop", id: "all-templates" },
       ],
     },
     {
-      title: "Use Cases",
+      title: "用例",
       items: [
-        { title: "Assistants", icon: "BotMessageSquare", id: "assistants" },
-        { title: "Classification", icon: "Tags", id: "classification" },
-        { title: "Coding", icon: "TerminalIcon", id: "coding" },
+        { title: "原型", icon: "BotMessageSquare", id: "assistants" },
+        { title: "分类", icon: "Tags", id: "classification" },
+        { title: "编程", icon: "TerminalIcon", id: "coding" },
         {
-          title: "Content Generation",
+          title: "内容生成",
           icon: "Newspaper",
           id: "content-generation",
         },
@@ -79,9 +79,9 @@ export default function TemplatesModal({
               <BaseModal.Footer>
                 <div className="flex w-full flex-col justify-between gap-4 pb-4 sm:flex-row sm:items-center">
                   <div className="flex flex-col items-start justify-center">
-                    <div className="font-semibold">Start from scratch</div>
+                    <div className="font-semibold">从头开始</div>
                     <div className="text-sm text-muted-foreground">
-                      Begin with a fresh flow to build from scratch.
+                      从新的流程开始，从头开始构建。
                     </div>
                   </div>
                   <Button
@@ -101,7 +101,7 @@ export default function TemplatesModal({
                       name="Plus"
                       className="h-4 w-4 shrink-0"
                     />
-                    Blank Flow
+                    空流程
                   </Button>
                 </div>
               </BaseModal.Footer>

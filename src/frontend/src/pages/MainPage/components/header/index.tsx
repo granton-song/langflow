@@ -149,7 +149,7 @@ const HeaderComponent = ({
                   className="h-4 w-4"
                 />
                 <span className="hidden whitespace-nowrap font-semibold md:inline">
-                  New Flow
+                  新建流程
                 </span>
               </Button>
             </ShadTooltip>
