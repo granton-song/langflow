@@ -6,22 +6,24 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/node": {},
-    "ghcr.io/dhoeric/features/hadolint:1": {}
+    "ghcr.io/dhoeric/features/hadolint:1": {},
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
   "postCreateCommand": "sudo chown -R langflow .venv .mypy_cache src/frontend/node_modules src/frontend/build src/backend/base/langflow/frontend && make install_frontend && make install_backend",
   "customizations": {
     "vscode": {
       "extensions": [
         "charliermarsh.ruff",
-        "njpwerner.autodocstring",
+        // "njpwerner.autodocstring",
         "oderwat.indent-rainbow",
         "exiasr.hadolint",
         "actboy168.tasks",
         "GitHub.copilot",
         "ms-python.python",
-        "eamodio.gitlens",
-        "ms-vscode.makefile-tools",
-        "GitHub.vscode-pull-request-github"
+        // "eamodio.gitlens",
+        "ms-vscode.makefile-tools"
+        // "GitHub.vscode-pull-request-github"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "zsh",
